@@ -1,0 +1,55 @@
+
+/*FUENTE DE TEXTO*/
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+body{
+    font-family: 'Koulen', cursive;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+/*____________________________________________*/
+
+
+header{
+    background-color: rgb(0, 0, 0);
+    display: flex; /*se levanta el texto de las etiquetas a del nav*/
+    justify-content: space-between; /*acomoda los elementos a la derecha*/
+    height: 80px;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.logo{
+    display: flex;
+    height: 110px;
+}
+
+nav a:hover{
+    color: rgb(247, 252, 0);
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+}
+/*___________________________________________________________*/
+
+main{
+    background-color: rgb(211, 135, 135);
+}
+
+
+/*____________________________________________________________*/
+footer{
+    background-color: rgb(153, 153, 153);
+}
+
+/*_____________________________________________________________*/
