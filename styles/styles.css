@@ -20,15 +20,21 @@ header{
     background-color: rgb(0, 0, 0);
     display: flex; /*se levanta el texto de las etiquetas a del nav*/
     justify-content: space-between; /*acomoda los elementos a la derecha*/
-    height: 80px;
+    height: 60px;
     align-items: center;
     padding: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
 
 .logo{
     display: flex;
-    height: 110px;
+    height: 90px;
 }
 
 nav a:hover{
@@ -43,13 +49,38 @@ nav a:hover{
 /*___________________________________________________________*/
 
 main{
-    background-color: rgb(211, 135, 135);
+    background-color: rgba(129, 81, 241, 0.904);
 }
 
+.banner {
+    background-image: url(../images/bannervol1.jpg);
+    padding: 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.div-2{
+
+}
+
+.section-1{
+    background-color: rgb(223, 223, 223);
+    padding: 20px;
+}
+
+main div :nth-child(1) section img
+{
+    height: 200px;
+}
 
 /*____________________________________________________________*/
 footer{
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(112, 58, 211);
+    padding: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
 }
 
 /*_____________________________________________________________*/
